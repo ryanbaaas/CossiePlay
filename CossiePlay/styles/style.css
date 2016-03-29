@@ -201,7 +201,7 @@ article h4 {
 }
 
 #cta {
-        background-color: #fff;
+        background-color: #f8fafa;
         padding: 60px 0;
         text-align: center;
 }
@@ -243,14 +243,18 @@ article h4 {
 }
 
 footer {
-        padding: 40px 0;
-        background-color: #f8fafa;
+        padding: 20px 15px;
+        border-top: 1px solid #e5e5e5;
+        color: #999;
+        max-width: 1024px;
+        margin: 0 auto;
+
 }
 
 #footer-info {
         width: 380px;
         float: left;
-        margin-top: 37px;
+        margin-top: 25px;
 }
 
 #footer-links {
@@ -261,17 +265,82 @@ footer {
 #footer-links ul li {
         float: left;
         display: block;
-        margin-top: 37px;
+        margin-top: 25px;
         margin-left: 15px;
         padding: 0;
 }
 
-#steve h3 p {
-        border-left: 100px;
+#founders-title {
+        background-color: #f8fafa;
+        width: 97%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
-#steve img {
-        height: 250px;
+#founders-title h3 {
+        font-family: 'Crete Round';
+}
+
+#founders {
+        background-color: #f8fafa;
+        width: 97%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.founders-info h3 {
+        float: right;
+        font-family: 'Crete Round';
+        margin-right: 170px;
+        margin-top: 40px;
+}
+
+.founders-info {
+        padding: 0px;
+    <!--    border: 1px solid #e2b8dd; -->
+}
+
+.founders-info img {
+        width: 45%;
+        margin-left: -75px;
+        margin-top: 25px;
+}
+
+.founders-info p {
+        margin-top: -250px;
+        width: 450px;
+        float: right;
+        margin-right: 40px;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 40px;
+}
+
+.founders-info2 h3 {
         float: left;
-        margin-left: -150px;
+        font-family: 'Crete Round';
+        margin-left: 25px;
+        margin-top: -350px;
+}
+
+.founders-info2 {
+        padding: 10px;
+}
+
+.founders-info2 img {
+        width: 45%;
+        margin-left: 450px;
+        margin-top: 50px;
+}
+
+.founders-info2 p {
+        margin-top: -300px;
+        width: 450px;
+        float: left;
+        margin-left: -50px;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 40px;
 }
